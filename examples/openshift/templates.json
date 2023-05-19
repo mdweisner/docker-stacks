@@ -1,6 +1,6 @@
 {
   "kind": "Template",
-  "apiVersion": "template.openshift.io/v1",
+  "apiVersion": "v1",
   "metadata": {
     "name": "jupyter-notebook",
     "annotations": {
@@ -30,7 +30,7 @@
   "objects": [
     {
       "kind": "ConfigMap",
-      "apiVersion": "openshift.io/v1",
+      "apiVersion": "v1",
       "metadata": {
         "name": "${APPLICATION_NAME}-cfg",
         "labels": {
