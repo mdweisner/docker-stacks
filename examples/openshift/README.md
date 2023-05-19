@@ -25,7 +25,7 @@ Minishift provides you the ability to run OpenShift in a virtual machine on your
 To load the templates, login to OpenShift from the command line and run:
 
 ```bash
-oc create -f https://raw.githubusercontent.com/jupyter-on-openshift/docker-stacks/master/examples/openshift/templates.json
+oc create -f https://raw.githubusercontent.com/mdweisner/docker-stacks/master/examples/openshift/templates.json
 ```
 
 This should create the `jupyter-notebook` template
